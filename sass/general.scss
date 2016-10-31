@@ -21,7 +21,7 @@
 }
 
 .square{
-  min-height:30vw;
+  min-height:50%;
   border: 5px solid white;
   color: white;
 }
@@ -33,13 +33,20 @@ h1{
 }
 .fa{
   color:white;
-  font-size: 317px;
+  // font-size: 317px;
+  font-size: 24vw;
   text-align: center;
   display: block;
 }
 a:hover{
   text-decoration: none;
 }
-.thumbnail a>img{
-  max-width: 92%;
+.thumbnail{
+  margin-bottom: 0px;
+  a >img{
+    max-width: 23vw;
+  }
+}
+body{
+  height:100vh;
 }
